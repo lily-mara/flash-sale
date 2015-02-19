@@ -8,7 +8,6 @@
 // @require		http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js
 // ==/UserScript==
 
-var $ = unsafeWindow.jQuery;
 var itemPattern = /Starting at: $[0-9.]+/;
 
 function getPrice() {
