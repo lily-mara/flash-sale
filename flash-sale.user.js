@@ -3,7 +3,7 @@
 // @namespace   com.natemara.flash-sale
 // @description Quickly sell your steam items
 // @include     /https?://(www\.)?steamcommunity\.com/market/.*/
-// @version     2
+// @version     3
 // @grant       none
 // ==/UserScript==
 
