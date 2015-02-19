@@ -37,7 +37,7 @@ function GM_wait() {
 
 // All your GM code must be inside this function
 function letsJQuery() {
-	var itemPrice = $("iteminfo1_item_market_actions");
+	var itemPrice = $("#iteminfo1_item_market_actions");
 	console.log(itemPrice);
 }
 
