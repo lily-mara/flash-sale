@@ -9,9 +9,7 @@
 
 function getPrice() {
 	var itemPrice = document.getElementById("iteminfo1_item_market_actions");
-	if (itemPrice) {
-		window.alert(itemPrice);
-	}
+	window.alert(itemPrice);
 }
 
 setInterval(function() {
