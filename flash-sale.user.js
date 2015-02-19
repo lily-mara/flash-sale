@@ -16,7 +16,7 @@ var $;
 		var GM_Head = document.getElementsByTagName('head')[0] || document.documentElement,
 			GM_JQ = document.createElement('script');
 
-		GM_JQ.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js';
+		GM_JQ.src = 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js';
 		GM_JQ.type = 'text/javascript';
 		GM_JQ.async = true;
 
@@ -38,7 +38,7 @@ function GM_wait() {
 // All your GM code must be inside this function
 function letsJQuery() {
 	var item = $("#iteminfo1_item_market_actions");
-	var itemPrice = item.html().match(itemPattern);
+	var itemPrice = item.html();
 	console.log(itemPrice);
 }
 
